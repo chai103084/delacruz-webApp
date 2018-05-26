@@ -8,7 +8,7 @@ client
     //.click('#search_button_homepage')
     .getText('#isUpdated').then(function (text){
          console.log(text);
-    }
+    
     //.getTitle().then(function(title) {
         //console.log('Title is: ' + title);
         // outputs:
