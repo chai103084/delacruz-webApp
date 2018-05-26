@@ -6,7 +6,7 @@ client
     .url('https://delacruz-webapp.herokuapp.com')
     //setValue('#search_form_input_homepage', 'WebdriverIO')
     //.click('#search_button_homepage')
-    .getText('#isUpdated').then(function (text){
+    .getText('#elem').then(function (text){
          console.log(text);
     
     //.getTitle().then(function(title) {
